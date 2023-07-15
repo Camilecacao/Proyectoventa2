@@ -9,8 +9,6 @@ hr{
 }
 .logo{
     width: 25%;
-    
-
 }
 body{
     background: black;
@@ -33,6 +31,7 @@ body{
     padding-left: 20px;
     margin-top: 4%;
     margin-bottom: 6%;
+    
    
 }
 .texto2{
@@ -99,8 +98,19 @@ body{
     align-items: center;
     
 }
-.pag{
-    width: 100%;
+.imgpag{
+    width: 300px;
+    height: auto;
+}
+.contenedor-pag{
+    display: flex;
+    justify-content: space-between;
+    gap: 187px;
+    margin-bottom: 50px;
+}
+.cash{
+    text-align: center;
+    color:pink
 }
 .cierre{
     text-align: center;

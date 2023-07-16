@@ -1,7 +1,6 @@
 .navbar-magenta{
     background-color: rgb(177, 98, 114)!important;
-    gap: 176px;
-    
+   
 }
 
 hr{
@@ -9,6 +8,7 @@ hr{
 }
 .logo{
     width: 25%;
+
 }
 body{
     background: black;
@@ -20,33 +20,35 @@ body{
 }
 .S1{
     background-image: url(../Images/Alfajor.jpeg);
-    background-repeat: no-repeat;
     background-size: cover;
-    height: 550px;
+    height: 600px;
     padding: 20px;
     opacity: .6;
+    display: flex;
+    flex-direction: column;
 }
+
 .texto1{
     text-align: center;
     padding-left: 20px;
     margin-top: 4%;
     margin-bottom: 6%;
-    
-   
+       
 }
 .texto2{
+    margin: 30px 0px;
+    text-align: center;
     
-    padding-left: 20px;
-
 }
-.botonemail{
-    background: black;
-    color: white;
- }
- input{
-    padding-left: 60px;
-    margin-left: 200px;
- }
+.button_b{
+    width: 500px;
+    margin: 10px auto;
+    display: flex;
+}
+.mainbutton{
+    margin: 33px;
+}
+
 .container-footer{
     display: flex;
     gap: 10px;
@@ -65,6 +67,9 @@ body{
     justify-content: center;
     align-items: center;
     padding: 100px 0px;
+}
+.contenedor-tarjetas{
+    margin: 40px;
 }
 .card-img-top{
     width: 100%;
@@ -91,7 +96,7 @@ body{
 }
 .S3{
     display: flex;
-    gap: 30px;
+    gap: 20px;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
@@ -99,13 +104,13 @@ body{
     
 }
 .imgpag{
+    display: flex;
     width: 300px;
-    height: auto;
+    display: flex;
 }
 .contenedor-pag{
     display: flex;
-    justify-content: space-between;
-    gap: 187px;
+    gap: 100px;
     margin-bottom: 50px;
 }
 .cash{
@@ -114,4 +119,19 @@ body{
 }
 .cierre{
     text-align: center;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    
+}
+/* responsive */
+
+@media screen and (max-width:750px){
+    .contenedor-pag{
+        flex-direction: column;
+    }
+    .container-footer{
+        flex-direction: column;
+    }
 }
